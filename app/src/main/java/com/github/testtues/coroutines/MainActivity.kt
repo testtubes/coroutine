@@ -48,5 +48,4 @@ import kotlinx.coroutines.*
     private fun logThread(methodName: String) {
         Log.i("somestuff","Debug: ${methodName}: ${Thread.currentThread().name}")
     }
-
 }
